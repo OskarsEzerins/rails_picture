@@ -1,0 +1,7 @@
+version = 1
+
+test_patterns = ["spec/**/*", "spec/*"]
+
+[[analyzers]]
+name = "ruby"
+enabled = true
