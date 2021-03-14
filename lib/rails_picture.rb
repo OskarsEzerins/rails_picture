@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require_relative 'rails_picture/version'
-require_relative 'helpers/rails_picture_helper'
+require 'rails_picture/version'
+require 'rails_picture/railtie'
+require 'rails_picture/rails_picture_helper'
 
 module RailsPicture
   class Error < StandardError; end
