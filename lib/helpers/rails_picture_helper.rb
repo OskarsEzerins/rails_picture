@@ -1,9 +1,10 @@
 # frozen_string_literal: true
 
+# Add a helper method to Rails views
 module RailsPictureHelper
   SOURCE_IMAGE_FORMATS = %w[avif webp png].freeze
-  PRIMARY_FORMAT = 'jpg'.freeze
-  SECONDARY_FORMAT = 'png'.freeze
+  PRIMARY_FORMAT = 'jpg'
+  SECONDARY_FORMAT = 'png'
 
   def picture_tag(filename, **options)
     html = []
