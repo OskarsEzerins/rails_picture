@@ -3,9 +3,7 @@
 require 'spec_helper'
 
 RSpec.describe RailsPicture, type: :feature do
-  before do
-    visit showcases_path
-  end
+  before { visit showcases_path }
 
   it 'shows picture tag' do
     expect(page).to have_css 'picture'
