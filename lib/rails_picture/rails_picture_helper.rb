@@ -19,16 +19,13 @@ module RailsPicture
       image = image(filename)
       html << tag.img(src: "/assets/#{image}", alt: filename.humanize, **options) if image
 
-      tag.picture do
-        safe_join html
-      end
+      tag.picture { safe_join html }
     end
 
     private
 
     def image(filename)
-      resolve_asset_path("#{filename}.#{PRIMARY_FORMAT}") ||
-        resolve_asset_path("#{filename}.#{SECONDARY_FORMAT}")
+      resolve_asset_path("#{filename}.#{PRIMARY_FORMAT}") || resolve_asset_path("#{filename}.#{SECONDARY_FORMAT}")
     end
   end
 end

@@ -5,5 +5,6 @@ require 'rails_picture/version'
 require 'rails_picture/railtie'
 
 module RailsPicture
-  class Error < StandardError; end
+  class Error < StandardError
+  end
 end

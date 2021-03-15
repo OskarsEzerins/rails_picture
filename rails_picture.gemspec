@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'Add a helper method for Rails to generate pictures'
   spec.homepage      = 'https://github.com/OskarsEzerins/rails_picture'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 2.4.0')
+  spec.required_ruby_version = Gem::Requirement.new('>= 3.0.0')
 
   spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
 
@@ -33,4 +33,12 @@ Gem::Specification.new do |spec|
   # guide at: https://bundler.io/guides/creating_gem.html
 
   spec.add_dependency 'rails', '~> 6.1.3'
+
+  spec.add_development_dependency 'capybara'
+  spec.add_development_dependency 'capybara-screenshot'
+  spec.add_development_dependency 'cuprite'
+  spec.add_development_dependency 'puma'
+  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency 'rspec-rails'
+  spec.add_development_dependency 'slim'
 end

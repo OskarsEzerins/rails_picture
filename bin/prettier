@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+bundle exec rbprettier --write 'lib/**/*.rb' 'spec/**/*.rb'
