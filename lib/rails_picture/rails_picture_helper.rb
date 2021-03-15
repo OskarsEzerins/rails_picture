@@ -4,7 +4,7 @@
 module RailsPicture
   # Add a helper method to Rails views
   module RailsPictureHelper
-    SOURCE_IMAGE_FORMATS = %w[avif webp png].freeze
+    SOURCE_IMAGE_FORMATS = %w[avif webp jxl png].freeze
     PRIMARY_FORMAT = 'jpg'
     SECONDARY_FORMAT = 'png'
 

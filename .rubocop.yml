@@ -23,3 +23,8 @@ Layout/LineLength:
 
 Style/Documentation:
   Enabled: false
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+    - 'rails_picture.gemspec'
