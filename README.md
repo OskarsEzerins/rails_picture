@@ -117,7 +117,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ### Development
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies. Then, run `bundle exec rake` to run the tests, rubocop. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
  <!-- LICENSE -->
 
