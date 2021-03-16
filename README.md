@@ -63,7 +63,7 @@ It generates a `<picture>` HTML tag and within it places HTML tag as `<img>` and
 
 <!-- TOOD: add image example here of generated HTML -->
 
-Internally it uses Rails built-in method image_tag.
+Internally it uses Rails built-in method `image_tag`.
 
 ### Installation
 
@@ -110,13 +110,9 @@ See the [TODO](https://github.com/OskarsEzerins/rails_picture/projects/1) for st
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
-
 5. Open a Pull Request
 
 ### Development
@@ -135,7 +131,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 Project Link: [https://github.com/OskarsEzerins/rails_picture](https://github.com/OskarsEzerins/rails_picture)
 
-Everyone interacting in the RailsPicture project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rails_picture/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the rails_picture project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rails_picture/blob/master/CODE_OF_CONDUCT.md).
 
 <!-- ACKNOWLEDGEMENTS -->
 
