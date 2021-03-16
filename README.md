@@ -71,7 +71,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 
-gem  'rails_picture'
+gem 'rails_picture'
 
 ```
 
