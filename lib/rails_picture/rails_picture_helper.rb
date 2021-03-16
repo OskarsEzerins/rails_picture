@@ -28,14 +28,14 @@ module RailsPicture
     end
 
     def find_img_format(filename)
-      IMG_FORMATS.each do |format|
-        path = asset_path(filename, format)
-        return path if path
-      end
+      IMG_FORMATS.map do |format|
+        asset_path(filename, format)
+      end.compact.first
     end
 
     def asset_path(filename, format)
-      resolve_asset_path "/assets/#{filename}.#{format}"
+      path = resolve_asset_path "#{filename}.#{format}"
+      path && "/assets/#{path}"
     end
   end
 end
