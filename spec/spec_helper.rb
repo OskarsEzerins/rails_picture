@@ -24,7 +24,6 @@ RSpec.configure do |config|
 end
 
 Capybara.default_driver = :cuprite
-Capybara.javascript_driver = :cuprite
 Capybara.asset_host = 'http://localhost:3000'
 Capybara.server = :puma, { Silent: true }
 Capybara.save_path = '../../tmp/capybara'
