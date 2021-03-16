@@ -18,24 +18,13 @@
 </a>
 -->
 
-<h3 align="center">rails_picture</h3>
+<h3 align='center'>rails_picture</h3>
 
-<p align="center">
-
-Simple picture_tag helper, which can show various image formats based on browser support
-
-</p>
-
-<p align='center'
-
-<a  href="https://github.com/OskarsEzerins/rails_picture/issues">Report Bug</a>
-
-·
-
-<a  href="https://github.com/OskarsEzerins/rails_picture/issues">Request Feature</a>
-
-</p>
-
+<p align='center'>Simple picture_tag helper, which can show various image formats based on browser support </p>
+<p align='center'>
+  <a href="https://github.com/OskarsEzerins/rails_picture/issues">Report Bug</a>
+  /
+  <a href="https://github.com/OskarsEzerins/rails_picture/issues">Request Feature</a>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -183,5 +172,4 @@ Everyone interacting in the RailsPicture project's codebases, issue trackers, ch
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/OskarsEzerins/rails_picture/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://www.linkedin.com/in/oskars-ezeri%C5%86%C5%A1-9339961a6
