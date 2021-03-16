@@ -1,38 +1,11 @@
-  
-
-<!-- PROJECT SHIELDS -->
-
-<!--
-
-*** I'm using markdown "reference style" links for readability.
-
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-
-*** See the bottom of this document for the declaration of the reference variables
-
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
-
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-
 [![Stargazers][stars-shield]][stars-url]
-
 [![Issues][issues-shield]][issues-url]
-
 [![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-  
-  
-  
-
-<!-- PROJECT LOGO 
+<!-- PROJECT LOGO
 
 <br  />
 
@@ -44,11 +17,8 @@
 
 </a>
 -->
-  
 
 <h3 align="center">rails_picture</h3>
-
- 
 
 <p align="center">
 
@@ -67,10 +37,6 @@ Simple picture_tag helper, which can show various image formats based on browser
 </p>
 
 </p>
-
-  
-  
-  
 
 <!-- TABLE OF CONTENTS -->
 
@@ -114,35 +80,21 @@ Simple picture_tag helper, which can show various image formats based on browser
 
 </details>
 
-  
-  
-  
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-  
-
 Provide a new helper method to Rails views - `picture_tag`
 <br  />
 It generates a `<picture>` HTML tag and within it places HTML tag as `<img>` and any other available image formats as `<source>` tags.
-  
 
 <!-- TOOD: add image example here of generated HTML -->
-  
 
 Internally it uses Rails built-in method image_tag.
 
-  
-
 ### Installation
 
-  
-
 Add this line to your application's Gemfile:
-
-  
 
 ```ruby
 
@@ -150,24 +102,17 @@ gem  'rails_picture'
 
 ```
 
-  
-
 And then execute in terminal:
 
-  
 ```shell
 bundle install
 ```
-  
-  
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-  
-
- 1. Put multiple same-named images with different file formats into `app/assets/`
+1. Put multiple same-named images with different file formats into `app/assets/`
 
 2. Place following code into any Rails view. It takes the same options as Rails built in `image_tag` :
 
@@ -175,39 +120,21 @@ bundle install
 picture_tag(filename, **options)
 ```
 
-  
-
->Note - do not input file extension in filename
-
-  
+> Note - do not input file extension in filename
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
-
-  
-  
-  
 
 <!-- ROADMAP -->
 
 ## Roadmap
 
-  
-
 See the [TODO](https://github.com/OskarsEzerins/rails_picture/projects/1) for status of current development.
-
-  
-  
-  
 
 <!-- CONTRIBUTING -->
 
 ## Contributing
 
-  
-
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-  
 
 1. Fork the Project
 
@@ -219,11 +146,7 @@ Contributions are what make the open source community such an amazing place to b
 
 5. Open a Pull Request
 
-  
-
 ### Development
-
-  
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
@@ -231,64 +154,34 @@ After checking out the repo, run `bin/setup` to install dependencies. Then, run 
 
 ## License
 
-  
-
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-  
-  
 
 <!-- CONTACT -->
 
 ## Conduct
 
-  
-
 Project Link: [https://github.com/OskarsEzerins/rails_picture](https://github.com/OskarsEzerins/rails_picture)
 
-  
-
 Everyone interacting in the RailsPicture project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/rails_picture/blob/master/CODE_OF_CONDUCT.md).
-
-  
-  
-  
 
 <!-- ACKNOWLEDGEMENTS -->
 
 <!-- ## Acknowledgements -->
-
-  
-  
-  
-  
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-
 [contributors-url]: https://github.com/OskarsEzerins/rails_picture/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-
 [forks-url]: https://github.com/OskarsEzerins/rails_picture/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-
 [stars-url]: https://github.com/OskarsEzerins/rails_picture/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-
 [issues-url]: https://github.com/OskarsEzerins/rails_picture/issues
-
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-
 [license-url]: https://github.com/OskarsEzerins/rails_picture/blob/master/LICENSE.txt
-
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-
 [linkedin-url]: https://linkedin.com/in/othneildrew
-
 [product-screenshot]: images/screenshot.png
