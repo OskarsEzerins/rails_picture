@@ -4,8 +4,8 @@
 module RailsPicture
   # Add a helper method to Rails views
   module RailsPictureHelper
-    SOURCE_FORMATS = %w[avif webp jxl].freeze
-    IMG_FORMATS = %w[jpg png].freeze
+    SOURCE_FORMATS = %w[avif webp apng gif svg jxl bmp ico cur tif tiff].freeze
+    IMG_FORMATS = %w[jpg jpeg png jfif pjpeg pjp].freeze
 
     def picture_tag(filename, **options)
       html = []
