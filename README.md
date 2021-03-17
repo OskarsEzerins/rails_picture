@@ -85,7 +85,7 @@ bundle install
 
 ## Usage
 
-1. Put multiple same-named images with different file formats into `app/assets/`
+1. Put multiple same-named images with different file formats into `app/assets/images/`
 
 2. Place following code into any Rails view. It takes the same options as Rails built in `image_tag` :
 
