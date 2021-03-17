@@ -10,20 +10,20 @@ module RailsPicture
     def picture_tag(filename, **options)
       html = []
 
-      SOURCE_FORMATS.each { |f| html << source_tag(filename, f) }
+      SOURCE_FORMATS.each { |f| html << build_source_tag(filename, f) }
 
-      html << image_tag(filename, **options)
+      html << build_image_tag(filename, **options)
 
       tag.picture { safe_join html }
     end
 
     private
 
-    def source_tag(filename, format)
+    def build_source_tag(filename, format)
       tag.source(srcset: asset_path(filename, format), type: "image/#{format}")
     end
 
-    def image_tag(filename, **options)
+    def build_image_tag(filename, **options)
       tag.img(src: find_img_format(filename), alt: filename.humanize, **options)
     end
 
