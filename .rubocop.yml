@@ -7,7 +7,7 @@ require:
   - rubocop-rake
 
 AllCops:
-  TargetRubyVersion: 3.0.0
+  TargetRubyVersion: 3.0.2
   NewCops: enable
 
 Style/StringLiterals:
