@@ -29,7 +29,14 @@ Capybara.server = :puma, { Silent: true }
 Capybara.save_path = '../../tmp/capybara'
 
 Capybara.register_driver(:cuprite) do |app|
-  Capybara::Cuprite::Driver.new(app, window_size: [1400, 900], inspector: true, timeout: 5, headless: true, js_errors: true)
+  Capybara::Cuprite::Driver.new(
+    app,
+    window_size: [1400, 900],
+    inspector: true,
+    timeout: 5,
+    headless: true,
+    js_errors: true
+  )
 end
 
 Capybara::Screenshot.register_driver(:cuprite) { |driver, path| driver.save_screenshot(path) }
