@@ -91,7 +91,7 @@ GEM
     cuprite (0.13)
       capybara (>= 2.1, < 4)
       ferrum (~> 0.11.0)
-    diff-lcs (1.4.4)
+    diff-lcs (1.5.0)
     erubi (1.10.0)
     ferrum (0.11)
       addressable (~> 2.5)
