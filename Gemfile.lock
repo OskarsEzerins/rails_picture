@@ -76,7 +76,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.2)
     awesome_print (1.9.2)
-    brakeman (5.2.2)
+    brakeman (5.2.3)
     builder (3.2.4)
     capybara (3.36.0)
       addressable
