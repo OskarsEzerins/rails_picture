@@ -97,7 +97,6 @@ GEM
       capybara (~> 3.0)
       ferrum (~> 0.13.0)
     diff-lcs (1.5.0)
-    digest (3.1.0)
     erubi (1.11.0)
     ferrum (0.13)
       addressable (~> 2.5)
@@ -106,7 +105,7 @@ GEM
       websocket-driver (>= 0.6, < 0.8)
     globalid (1.0.0)
       activesupport (>= 5.0)
-    haml (6.0.1)
+    haml (6.0.10)
       temple (>= 0.8.2)
       thor
       tilt
@@ -125,20 +124,14 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
-    net-imap (0.2.3)
-      digest
+    net-imap (0.3.1)
       net-protocol
-      strscan
-    net-pop (0.1.1)
-      digest
+    net-pop (0.1.2)
       net-protocol
-      timeout
     net-protocol (0.1.3)
       timeout
-    net-smtp (0.3.1)
-      digest
+    net-smtp (0.3.3)
       net-protocol
-      timeout
     nio4r (2.5.8)
     nokogiri (1.13.9-x86_64-darwin)
       racc (~> 1.4)
@@ -151,7 +144,7 @@ GEM
       syntax_tree (>= 2.7.1)
       syntax_tree-haml (>= 1.1.0)
       syntax_tree-rbs (>= 0.2.0)
-    prettier_print (0.1.0)
+    prettier_print (1.1.0)
     pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -195,8 +188,8 @@ GEM
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
     rake (13.0.6)
-    rbs (2.6.0)
-    regexp_parser (2.6.0)
+    rbs (2.7.0)
+    regexp_parser (2.6.1)
     rexml (3.2.5)
     rspec (3.12.0)
       rspec-core (~> 3.12.0)
@@ -252,13 +245,12 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.5.4-x86_64-darwin)
     sqlite3 (1.5.4-x86_64-linux)
-    strscan (3.0.4)
-    syntax_tree (3.6.0)
-      prettier_print
-    syntax_tree-haml (1.3.2)
-      haml (>= 5.2)
-      prettier_print
-      syntax_tree (>= 2.0.1)
+    syntax_tree (5.0.1)
+      prettier_print (>= 1.1.0)
+    syntax_tree-haml (2.0.0)
+      haml (>= 5.2, != 6.0.0)
+      prettier_print (>= 1.0.0)
+      syntax_tree (>= 4.0.0)
     syntax_tree-rbs (0.5.1)
       prettier_print
       rbs
@@ -278,7 +270,7 @@ GEM
       nokogiri (~> 1.8)
     yard (0.9.28)
       webrick (~> 1.7.0)
-    zeitwerk (2.6.4)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   x86_64-darwin-20
