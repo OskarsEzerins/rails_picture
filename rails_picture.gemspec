@@ -32,12 +32,4 @@ Gem::Specification.new do |spec|
   # guide at: https://bundler.io/guides/creating_gem.html
 
   spec.add_dependency 'rails', '>= 6.1'
-
-  spec.add_development_dependency 'capybara'
-  spec.add_development_dependency 'capybara-screenshot'
-  spec.add_development_dependency 'cuprite'
-  spec.add_development_dependency 'puma'
-  spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'rspec-rails'
-  spec.add_development_dependency 'slim'
 end
