@@ -7,7 +7,7 @@ require:
   - rubocop-rake
 
 AllCops:
-  TargetRubyVersion: 3.0.2
+  TargetRubyVersion: 3.0.5
   NewCops: enable
 
 Style/StringLiterals:
@@ -26,5 +26,5 @@ Style/Documentation:
 
 Metrics/BlockLength:
   Exclude:
-    - 'spec/**/*'
-    - 'rails_picture.gemspec'
+    - "spec/**/*"
+    - "rails_picture.gemspec"
