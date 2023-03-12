@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'Simple picture_tag helper, which can show various image formats based on browser support'
   spec.homepage      = 'https://github.com/OskarsEzerins/rails_picture'
   spec.license       = 'MIT'
-  spec.required_ruby_version = Gem::Requirement.new('>= 3.0.0')
+  spec.required_ruby_version = '>= 3.0.0', '<= 3.2'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/OskarsEzerins/rails_picture'
