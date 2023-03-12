@@ -4,12 +4,27 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        ruby:
+          [
+            "2.7",
+            "3.0",
+            "3.1",
+            head,
+            jruby,
+            jruby-head,
+            truffleruby,
+            truffleruby-head,
+          ]
+    runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: true
+          ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true # bundle install, cache gems
       - name: Run the default task
         run: bundle exec rake
